@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\projects\Shop\Shop" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Shop.Api" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ProductsController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Shop.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Shop.Api.csproj" t="IncludeRecursive" />
+        <e p="Shop.db" t="Include" />
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="Shop.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entitites" t="Include">
+          <e p="Product.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IProductRepository.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Shop.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Shop.Core.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Shop.Infrastructure" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="Migrations" t="Include">
+            <e p="20201029132624_Migrations.cs" t="Include" />
+            <e p="20201029132624_Migrations.Designer.cs" t="Include" />
+            <e p="StoreContextModelSnapshot.cs" t="Include" />
+          </e>
+          <e p="StoreContext.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Shop.Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Shop.Infrastructure.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Shop.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\Anton\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Anton\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Shop.-2090739891.00" t="ExcludeRecursive" />
+  </component>
+</project>
