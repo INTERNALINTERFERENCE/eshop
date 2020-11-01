@@ -50,6 +50,7 @@
             <e p="20201029132624_Migrations.Designer.cs" t="Include" />
             <e p="StoreContextModelSnapshot.cs" t="Include" />
           </e>
+          <e p="ProductRepository.cs" t="Include" />
           <e p="StoreContext.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">

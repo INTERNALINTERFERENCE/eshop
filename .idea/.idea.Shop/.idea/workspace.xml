@@ -6,8 +6,32 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="52497bff-1ef5-4f97-b404-1cc6667d2854" name="Default Changelist" comment="" />
+    <list default="true" id="52497bff-1ef5-4f97-b404-1cc6667d2854" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Shop.Infrastructure/Data/ProductRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shop/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop.Api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop.Core/Interfaces/IProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop.Core/Interfaces/IProductRepository.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +64,9 @@
         <option value="$PROJECT_DIR$/Shop.Infrastructure/Data/Migrations/20201029132624_Migrations.cs" />
         <option value="$PROJECT_DIR$/Shop.Infrastructure/Data/Migrations/StoreContextModelSnapshot.cs" />
         <option value="$PROJECT_DIR$/Shop.Infrastructure/Data/Migrations/20201029132624_Migrations.Designer.cs" />
-        <option value="$PROJECT_DIR$/Shop.Api/Startup.cs" />
         <option value="$PROJECT_DIR$/Shop.Core/Interfaces/IProductRepository.cs" />
+        <option value="$PROJECT_DIR$/Shop.Infrastructure/Data/ProductRepository.cs" />
+        <option value="$PROJECT_DIR$/Shop.Api/Startup.cs" />
       </list>
     </option>
   </component>
@@ -101,6 +126,7 @@
       <workItem from="1603947827325" duration="965000" />
       <workItem from="1603968161152" duration="6388000" />
       <workItem from="1604111852918" duration="174000" />
+      <workItem from="1604226938995" duration="1355000" />
     </task>
     <servers />
   </component>
@@ -109,6 +135,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -145,10 +182,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1603968300428" />
+    <state x="758" y="210" key="RiderGenerateDialog" timestamp="1604230144380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="758" y="210" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604230144380" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1604111939613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604111939613" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1604230285273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604230285273" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604111944422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
