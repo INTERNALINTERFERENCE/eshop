@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Shop.Core.Entitites;
+using Shop.Core.Interfaces;
+using Shop.Infrastructure.Data;
 
 namespace Shop.Api.Controllers
 {
@@ -6,16 +12,25 @@ namespace Shop.Api.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        [HttpGet]
-        public string GetProducts()
+        private readonly IProductRepository _repository;
+
+        public ProductsController(IProductRepository repository)
         {
-            return "list of products";
+            _repository = repository;
+        }
+        
+        [HttpGet]
+        public async Task<ActionResult<List<Product>>> GetProducts()
+        {
+            var products = await _repository.GetProductAsync();
+
+            return Ok(products);
         }
 
         [HttpGet("{id}")]
-        public string GetProduct(int id)
+        public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            return $"{id} product";
+            return await _repository.GetProductByIdAsync(id);
         }
     }
 }

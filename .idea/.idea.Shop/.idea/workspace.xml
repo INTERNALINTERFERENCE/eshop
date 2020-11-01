@@ -25,12 +25,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52497bff-1ef5-4f97-b404-1cc6667d2854" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Shop.Infrastructure/Data/ProductRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shop/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="52497bff-1ef5-4f97-b404-1cc6667d2854" name="Default Changelist" comment="add repository and interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop.Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop.Core/Interfaces/IProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop.Core/Interfaces/IProductRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop.Api/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop.Api/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop.Infrastructure/Data/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop.Infrastructure/Data/ProductRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shop.Infrastructure/Data/StoreContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shop.Infrastructure/Data/StoreContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Shop.Api/Controllers/ProductsController.cs" />
         <option value="$PROJECT_DIR$/Shop.Api/Entitites/Product.cs" />
         <option value="$PROJECT_DIR$/Shop.Core/Class1.cs" />
         <option value="$PROJECT_DIR$/Shop.Infrastructure/Class1.cs" />
@@ -60,13 +58,14 @@
         <option value="$PROJECT_DIR$/Shop.Api/Data/Migrations/20201029132624_Migrations.cs" />
         <option value="$PROJECT_DIR$/Shop.Api/Data/Migrations/20201029132624_Migrations.Designer.cs" />
         <option value="$PROJECT_DIR$/Shop.Api/Data/Migrations/StoreContextModelSnapshot.cs" />
-        <option value="$PROJECT_DIR$/Shop.Infrastructure/Data/StoreContext.cs" />
         <option value="$PROJECT_DIR$/Shop.Infrastructure/Data/Migrations/20201029132624_Migrations.cs" />
         <option value="$PROJECT_DIR$/Shop.Infrastructure/Data/Migrations/StoreContextModelSnapshot.cs" />
         <option value="$PROJECT_DIR$/Shop.Infrastructure/Data/Migrations/20201029132624_Migrations.Designer.cs" />
         <option value="$PROJECT_DIR$/Shop.Core/Interfaces/IProductRepository.cs" />
-        <option value="$PROJECT_DIR$/Shop.Infrastructure/Data/ProductRepository.cs" />
         <option value="$PROJECT_DIR$/Shop.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/Shop.Infrastructure/Data/StoreContext.cs" />
+        <option value="$PROJECT_DIR$/Shop.Infrastructure/Data/ProductRepository.cs" />
+        <option value="$PROJECT_DIR$/Shop.Api/Controllers/ProductsController.cs" />
       </list>
     </option>
   </component>
@@ -126,8 +125,16 @@
       <workItem from="1603947827325" duration="965000" />
       <workItem from="1603968161152" duration="6388000" />
       <workItem from="1604111852918" duration="174000" />
-      <workItem from="1604226938995" duration="1355000" />
+      <workItem from="1604226938995" duration="2003000" />
     </task>
+    <task id="LOCAL-00001" summary="add repository and interfaces">
+      <created>1604230804817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604230804817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +155,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add repository and interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="add repository and interfaces" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1603948716170">
@@ -194,9 +203,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604230285273" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604111944422">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604230839010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604111944422" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604230839010" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604230810964">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604230810964" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604230730137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604230730137" />
   </component>
 </project>
