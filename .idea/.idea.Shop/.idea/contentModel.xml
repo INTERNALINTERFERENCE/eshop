@@ -28,7 +28,10 @@
       <e p="Shop.Core" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Entitites" t="Include">
+          <e p="BaseEntity.cs" t="Include" />
           <e p="Product.cs" t="Include" />
+          <e p="ProductBrand.cs" t="Include" />
+          <e p="ProductType.cs" t="Include" />
         </e>
         <e p="Interfaces" t="Include">
           <e p="IProductRepository.cs" t="Include" />
